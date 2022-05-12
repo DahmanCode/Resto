@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="icon" type="icon/x-icon" href="images/untesp.png">
     <link rel="stylesheet" href="style.css">
     <title>Resto WebSit</title>
@@ -21,13 +21,18 @@
         </nav>
         <div class="icons">
             <i class="fas fa-bars" id="menu-bars"></i>
-            <i class="fas fa-search" id="search-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
             <a href="#" class="fas fa-heart"></a>
             <a href="#" class="fas fa-shopping-cart"></a>
         </div>
     </header>
-<!--     home section starts   -->
-<section class="home" id="home">
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search Here ..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!--     home section starts   -->
+    <section class="home" id="home">
     <div class="swiper home-slider">
         <div class="swiper-wrapper wrapper">
             <div class="swiper-slide slide">
@@ -38,7 +43,7 @@
                     <a href="#" class="btn">order now</a>
                 </div>
                 <div class="image">
-                    <img src="/images/food (1).jpg" height="400px" alt="">
+                    <img src="images/food (1).jpg" height="400px" alt="">
                 </div>
             </div>
             <div class="swiper-slide slide">
@@ -49,7 +54,7 @@
                     <a href="#" class="btn">order now</a>
                 </div>
                 <div class="image">
-                    <img src="/images/food (2).jpg" height="400px" alt="">
+                    <img src="images/food (2).jpg" height="400px" alt="">
                 </div>
             </div>
             <div class="swiper-slide slide">
@@ -73,6 +78,6 @@
 
 
 
-<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="script.js"></script>
 </html>
