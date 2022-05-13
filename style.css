@@ -239,6 +239,42 @@ section:nth-child(even)
     background: var(--purple);
 }
 
+.dishes .box-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap: 1.5rem;
+}
+
+.dishes .box-container .box
+{
+    padding: 2rem;
+    background: #fff;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.dishes .box-container .box img
+{
+    height: 250px;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
