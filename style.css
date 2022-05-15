@@ -647,6 +647,7 @@ section:nth-child(even)
     padding: .5rem 0;
     font-size: 1.5rem;
     color: var(--light-color);
+    
 }
 
 .footer .box-container .box a:hover
@@ -679,27 +680,9 @@ section:nth-child(even)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* For phons */
 
-@media(max-width:990px)
+@media(max-width:991px)
 {
     html
     {
@@ -715,7 +698,7 @@ section:nth-child(even)
     }
 }
 
-@media(max-width:760px)
+@media(max-width:768px)
 {
     header .icons #menu-bars
     {
