@@ -739,3 +739,19 @@ section:nth-child(even)
     }
 
 }
+
+@media(max-width:450px) {
+    html
+    {
+        font-size: 50%;
+    }
+    .dishes .box-container .box img
+    {
+        height: auto;
+        width: 100%;
+    }
+    .order form .inputBox .input
+    {
+        width: 100%;
+    }
+}
