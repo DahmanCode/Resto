@@ -673,13 +673,6 @@ section:nth-child(even)
     font-weight: bolder;
 }
 
-
-
-
-
-
-
-
 /* For phons */
 
 @media(max-width:991px)
@@ -698,7 +691,7 @@ section:nth-child(even)
     }
 }
 
-@media(max-width:768px)
+@media(max-width:818px)
 {
     header .icons #menu-bars
     {
@@ -736,6 +729,10 @@ section:nth-child(even)
     .home .home-slider .slide .content h3 
     {
         font-size: 5rem;
+    }
+    .dishes .box-container .box img
+    {
+        height: auto;
     }
 
 }
